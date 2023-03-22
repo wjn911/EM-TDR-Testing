@@ -52,3 +52,28 @@ The voltage potential field as well as the electric field compare with the basel
 | ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture6.png) |
 |:--:|
 | *Numerical simulation results* |
+
+For EM-TDR be able to detect the reflected signal, we are more interested in the characteristic impedance changes when corrosion happens. Here we plot the characteristic impedance changes via different corrosion size as well coating damage size: 
+- Intrusion angle: 10&deg; – 30&deg;, step: 10&deg;
+- Intrusion thickness: 50% -- 200% of casing thickness, step: 50%
+- Coating broken angle: 10&deg; -- 30&deg;, step: 10&deg;
+- Casing corrosion angle : 10&deg; -- 30&deg;, step: 10&deg;
+- Casing corrosion thickness: 20% -- 80% of the casing thickness, step: 20%
+
+Here are the results plotted in figures: 
+
+| ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture7.png) |
+|:--:|
+| *Corrosion on casing, coating broken angle: 0&deg;* |
+
+| ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture8.png) |
+|:--:|
+| *Corrosion on casing, coating broken angle: 10&deg;* |
+
+| ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture9.png) |
+|:--:|
+| *Corrosion on casing, coating broken angle: 20&deg;* |
+
+| ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture10.png) |
+|:--:|
+| *Corrosion on casing, coating broken angle: 30&deg;* |
