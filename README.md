@@ -38,6 +38,6 @@ Here we demonstrate a example of 2-D cross-section simulation of water intrusion
 
 # Numerical sensitivity test
 
-| ![2-D numerical model]([https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture4.png](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture5.png)) |
+| ![2-D numerical model](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture5.png)) |
 |:--:|
 | *Numerical model of water intrusion under coating* |
