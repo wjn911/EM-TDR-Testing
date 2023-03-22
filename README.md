@@ -12,6 +12,7 @@ In most of the case, the pipeline has relative thin pipe wall but very long leng
 
 | ![characteristic impednace calculation](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture1.png) |
 |:--:|
+| *Example of calculating the characteristic impednace of the unit length and simulation of the 2-D cross-section* |
 
 Secondly, we assemble these sections into 1-D model and simulate the EM-TDR response. 
 
