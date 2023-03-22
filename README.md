@@ -21,3 +21,11 @@ Secondly, we assemble these sections in the longitudinal into a 1-D model and si
 | *Assemble the 2-D cross-sections into 1-D model in longitudinal direction* |
 
 # Numerical simulation test
+## Numerical simulation Scenario 1: Dis-bond coating, no corrosion happen
+In this case, the intruding fluid is mostly air. A little air-packet is form between coating layer and metalic pipe.
+The result is shown below: 
+
+| ![Dis-bond pipe](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture3.png) |
+|:--:|
+| *Numerical simulation of the dis-bond coating filled with air. The cross-sections illustrate the voltage potential field as well as the electric field* |
+
