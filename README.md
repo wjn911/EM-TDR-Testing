@@ -86,7 +86,7 @@ Here are the results plotted in figures:
 
 The detail parameters of the waveform generator and oscilloscope are listed in the following table:
 
-| Oscilloscope |
+| Oscilloscope ||
 | ------------- | ------------- |
 | Number of output | 4 channels |
 | Frequency range | 500 MHz to 8 GHz|
@@ -94,7 +94,7 @@ The detail parameters of the waveform generator and oscilloscope are listed in t
 | Power source | 380 Watts | 
 | Operating enviroment | Temperature: 5 &deg;C to 40 &deg;C <br> Humidity: < 80% RH <br> Altitude: 9,842 ft (3000 m)|
 | ------------- | ------------- |
-| Arbitrary waveform generator |
+| Arbitrary waveform generator ||
 | ------------- | ------------- |
 | Number of output | 2 channels |
 | Frequency range | 1 $\muHz to 2 GHz |
