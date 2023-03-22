@@ -53,7 +53,6 @@ Casing corrosion lost: 10% of the casing thickness per step. In the following fi
 |:--:|
 | *Numerical model of water intrusion under coating* |
 
-[Back to top](#em-tdr-testing)
 #### Numberical simulation result of the 2-D cross-sections
 
 The voltage potential field as well as the electric field compare with the baseline field (intact scenario) is shown: 
