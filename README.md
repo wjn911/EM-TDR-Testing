@@ -119,14 +119,35 @@ The detail parameters of the waveform generator and oscilloscope are listed in t
 
 ### EM-TDR prototype evaluation
 
+#### Damaged pipe set up
 The pipeline damage sensitivity lab test included the gap (0 – 3 cm) between two 6 ft stainless steel pipes. 
 The laboratory set up for the pipe is shown in the figure: 
 | ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture13.png) |
 |:--:|
 | *Laboratory set up to emulate the damaged pipe* |
 
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture15.png) |
+|:--:|
+| *Laboratory set up to emulate the 130&deg; and 15&deg; damage in the pipe* |
+
+#### Laboratory testing results
+The laboratory testing consist of three different damage width: 245&deg;, 130&deg;, and 15&deg;. Each damage width consist of 0 -- 30 mm damage length. We conducted each of these settings with 6 different frequencies: 
+- 2 GHz sine waveform
+- 1 Ghz sine waveform
+- 770 MHz square waveform
+- 500 MHz square waveform
+- 300 MHz square waveform
+- 150 MHz square waveform and Gaussian waveform
+Here are some of the measured results:
+
+##### EM-TDR measurement of the 245&deg; damage in the pipe with different frequencies
+
+#### Numerical simulation
 We also conducted numerical simulation of the laboratory set up. The results are shown: 
 
 | ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture14.png) |
 |:--:|
 | *Numerical simulation of the lab testing set up. The top row is the numerical model. The bottom row is the voltage potential field.* |
+
+#### Comparision between numerical simulation and laboratory measurements
+
