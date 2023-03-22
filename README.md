@@ -35,3 +35,9 @@ Here we demonstrate a example of 2-D cross-section simulation of water intrusion
 | ![Dis-bond pipe](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture4.png) |
 |:--:|
 | *Numerical simulation of the dis-bond coating filled with water. Here it is showing the coating is not broken, broken width of 10&deg;, and 20&deg;, respectively. The cross-sections illustrate the voltage potential field as well as the electric field* |
+
+# Numerical sensitivity test
+
+| ![2-D numerical model]([https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture4.png](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture5.pdf)) |
+|:--:|
+| *Numerical model of water intrusion under coating* |
