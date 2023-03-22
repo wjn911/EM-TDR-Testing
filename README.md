@@ -4,7 +4,7 @@
 | ------------- | ------------- | ------------- |
 | [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
 | [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios:<br>[Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion) <br>[Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion) | Finished  |
-| [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion | Finished|
+| [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages <br>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios) | Finished|
 
 
 # Numerical Scheme: 2.5-D approach
@@ -52,6 +52,8 @@ The voltage potential field as well as the electric field compare with the basel
 | ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture6.png) |
 |:--:|
 | *Numerical simulation results* |
+
+## Characteristic impedance changes in different scenarios
 
 For EM-TDR be able to detect the reflected signal, we are more interested in the characteristic impedance changes when corrosion happens. Here we plot the characteristic impedance changes via different corrosion size as well coating damage size: 
 - Intrusion angle: 10&deg; – 30&deg;, step: 10&deg;
