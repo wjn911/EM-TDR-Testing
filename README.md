@@ -9,7 +9,7 @@
 
 
 
-# Numerical Scheme: 2.5-D approach
+## Numerical Scheme: 2.5-D approach
 
 In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach: First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. The cross-section simulation is shown in the following figure as an example: 
 
@@ -23,8 +23,8 @@ Secondly, we assemble these sections in the longitudinal into a 1-D model and si
 |:--:|
 | *Assemble the 2-D cross-sections into 1-D model in longitudinal direction* |
 
-# Numerical simulation test
-## Numerical simulation Scenario 1: Dis-bond coating, intact coating, no corrosion
+## Numerical simulation test
+### Numerical simulation Scenario 1: Dis-bond coating, intact coating, no corrosion
 In this case, the intruding fluid is mostly air. A little air-packet is form between coating layer and metalic pipe. We also demonstrate varies thickness of the intruding air layer.
 The result is shown below: 
 
@@ -32,14 +32,14 @@ The result is shown below:
 |:--:|
 | *Numerical simulation of the dis-bond coating filled with air. The cross-sections illustrate the voltage potential field as well as the electric field* |
 
-## Numerical simulation Scenario 1: Dis-bond coating, broken coating, no corrosion
+### Numerical simulation Scenario 1: Dis-bond coating, broken coating, no corrosion
 
 Here we demonstrate a example of 2-D cross-section simulation of water intrusion scenario with both intact coating as well as broken coating: 
 | ![Dis-bond pipe](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture4.png) |
 |:--:|
 | *Numerical simulation of the dis-bond coating filled with water. Here it is showing the coating is not broken, broken width of 10&deg;, and 20&deg;, respectively. The cross-sections illustrate the voltage potential field as well as the electric field* |
 
-# Numerical sensitivity test
+## Numerical sensitivity test
 
 In this numerical test, we add the metalic loss to the model. 
 The water intrusion is under the coating, 30&deg; wide. The water layer is 10% casing thickness. 
@@ -55,7 +55,7 @@ The voltage potential field as well as the electric field compare with the basel
 |:--:|
 | *Numerical simulation results* |
 
-## Characteristic impedance changes in different scenarios
+### Characteristic impedance changes in different scenarios
 
 For EM-TDR be able to detect the reflected signal, we are more interested in the characteristic impedance changes when corrosion happens. Here we plot the characteristic impedance changes via different corrosion size as well coating damage size: 
 - Intrusion angle: 10&deg; – 30&deg;, step: 10&deg;
@@ -82,7 +82,7 @@ Here are the results plotted in figures:
 |:--:|
 | *Corrosion on casing, coating broken angle: 30&deg;* |
 
-# EM-TDR prototype development
+## EM-TDR prototype development
 
 The drawing of the EM-TDR set up is shown in the following schematic: 
 
@@ -114,5 +114,5 @@ The detail parameters of the waveform generator and oscilloscope are listed in t
 |:--:|
 | *EM-TDR prototype. a: Oscilloscope; b: Arbitrary waveform generator* |
 
-# EM-TDR prototype evaluation
+## EM-TDR prototype evaluation
 
