@@ -6,6 +6,7 @@
 | [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios:<br>[Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion) <br>[Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion) | Finished  |
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages <br>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios) | Finished|
 | [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
+| [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test | Finished |
 
 
 
@@ -116,3 +117,14 @@ The detail parameters of the waveform generator and oscilloscope are listed in t
 
 ### EM-TDR prototype evaluation
 
+The pipeline damage sensitivity lab test included the gap (0 – 3 cm) between two 6 ft stainless steel pipes. 
+The laboratory set up for the pipe is shown in the figure: 
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture13.png) |
+|:--:|
+| *Laboratory set up to emulate the damaged pipe* |
+
+We also conducted numerical simulation of the laboratory set up. The results are shown: 
+
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture14.png) |
+|:--:|
+| *Numerical simulation of the lab testing set up. The top row is the numerical model. The bottom row is the voltage potential field.* |
