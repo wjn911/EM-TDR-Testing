@@ -4,6 +4,7 @@
 | ------------- | ------------- | ------------- |
 | [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
 | [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios:<br>[Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion) <br>[Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion) | Finished  |
+| [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion | Finished|
 
 
 # Numerical Scheme: 2.5-D approach
@@ -38,6 +39,11 @@ Here we demonstrate a example of 2-D cross-section simulation of water intrusion
 
 # Numerical sensitivity test
 
-| ![2-D numerical model](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture5.png)) |
+In this numerical test, we add the metalic loss to the model. 
+The water intrusion is under the coating, 30&deg; wide. The water layer is 10% casing thickness. 
+Casing corrosion: 10&deg; wide, filled with water.
+Casing corrosion lost: 10% of the casing thickness per step. In the following figure, we only show every 20% casing thichness due to the limited space.
+
+| ![2-D numerical model](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture5.png) |
 |:--:|
 | *Numerical model of water intrusion under coating* |
