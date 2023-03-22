@@ -84,7 +84,7 @@ Here are the results plotted in figures:
 
 # EM-TDR prototype development
 
-The detail parameters of the waveform generator and oscilloscope are listed in the following table:
+The detail parameters of the waveform generator and oscilloscope are listed in the following tables:
 
 | Oscilloscope ||
 | ------------- | ------------- |
@@ -107,3 +107,12 @@ The detail parameters of the waveform generator and oscilloscope are listed in t
 | ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture11.png) |
 |:--:|
 | *EM-TDR prototype. a: Oscilloscope; b: Arbitrary waveform generator* |
+
+The drawing of the EM-TDR set up is shown in the following schematic: 
+
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture12.png) |
+|:--:|
+| *EM-TDR prototype: schematic of the acquisitionset up* |
+
+# EM-TDR prototype evaluation
+
