@@ -3,11 +3,10 @@
 | Task Name | Description | Progress |
 | ------------- | ------------- | ------------- |
 | [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
-| [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios:<br>     Dis-bond coating with intact coating and metalic pipe <br>     Dis-bond coating with broken coating and intact matalic pipe | Finished  |
+| [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios:<br>[Dis-bond coating with intact coating and metalic pipe] <br>Dis-bond coating with broken coating and intact matalic pipe | Finished  |
 
 
 # Numerical Scheme: 2.5-D approach
-==================================
 
 In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach: First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. The cross-section simulation is shown in the following figure as an example: 
 
@@ -22,8 +21,7 @@ Secondly, we assemble these sections in the longitudinal into a 1-D model and si
 | *Assemble the 2-D cross-sections into 1-D model in longitudinal direction* |
 
 # Numerical simulation test
-============================
-## Numerical simulation Scenario 1: Dis-bond coating, no corrosion happen
+## Numerical simulation Scenario 1: Dis-bond coating, intact coating, no corrosion
 In this case, the intruding fluid is mostly air. A little air-packet is form between coating layer and metalic pipe.
 The result is shown below: 
 
