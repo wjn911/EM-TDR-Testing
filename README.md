@@ -5,6 +5,8 @@
 | [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
 | [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios:<br>[Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion) <br>[Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion) | Finished  |
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages <br>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios) | Finished|
+| [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
+
 
 
 # Numerical Scheme: 2.5-D approach
@@ -79,3 +81,29 @@ Here are the results plotted in figures:
 | ![2-D numerical simulation results](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture10.png) |
 |:--:|
 | *Corrosion on casing, coating broken angle: 30&deg;* |
+
+# EM-TDR prototype development
+
+The detail parameters of the waveform generator and oscilloscope are listed in the following table:
+
+| Oscilloscope |
+| ------------- | ------------- |
+| Number of output | 4 channels |
+| Frequency range | 500 MHz to 8 GHz|
+| Mechanical (W x H x D)<br>Weight | 16.9 x 12.9 x 9 inch (430 x 330 x 230 mm)<br> 26.4 lbs (12 kg)|
+| Power source | 380 Watts | 
+| Operating enviroment | Temperature: 5 &deg;C to 40 &deg;C <br> Humidity: < 80% RH <br> Altitude: 9,842 ft (3000 m)|
+| ------------- | ------------- |
+| Arbitrary waveform generator |
+| ------------- | ------------- |
+| Number of output | 2 channels |
+| Frequency range | 1 $\muHz to 2 GHz |
+| Amplitude offset | -2.5 V to + 2.5 V | 
+| Bandwidth | 2 GHz |
+| Mechanical (W x H x D)<br>Weight | 17.7 x 6.3 x 13.4 inch (450 x 160 x 340 mm)<br> 4.4 lbs (9.7 kg)|
+| Power source | 100 to 240 Vac <br>120 Watts (max) | 
+| Operating enviroment | Temperature: 0 &deg;C to 50 &deg;C <br> Humidity: 8% to 90% RH <br> Altitude: 10,000 ft (3048 m)|
+
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture11.png) |
+|:--:|
+| *EM-TDR prototype. a: Oscilloscope; b: Arbitrary waveform generator* |
