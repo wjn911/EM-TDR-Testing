@@ -22,7 +22,7 @@ Secondly, we assemble these sections in the longitudinal into a 1-D model and si
 
 # Numerical simulation test
 ## Numerical simulation Scenario 1: Dis-bond coating, intact coating, no corrosion
-In this case, the intruding fluid is mostly air. A little air-packet is form between coating layer and metalic pipe.
+In this case, the intruding fluid is mostly air. A little air-packet is form between coating layer and metalic pipe. We also demonstrate varies thickness of the intruding air layer.
 The result is shown below: 
 
 | ![Dis-bond pipe](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture3.png) |
@@ -30,3 +30,8 @@ The result is shown below:
 | *Numerical simulation of the dis-bond coating filled with air. The cross-sections illustrate the voltage potential field as well as the electric field* |
 
 ## Numerical simulation Scenario 1: Dis-bond coating, broken coating, no corrosion
+
+Here we demonstrate a example of 2-D cross-section simulation of water intrusion scenario with both intact coating as well as broken coating: 
+| ![Dis-bond pipe](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture4.png) |
+|:--:|
+| *Numerical simulation of the dis-bond coating filled with water. Here it is showing the coating is not broken, broken 10$^{\circ}$, and 20$^{\circ}$, respectively. The cross-sections illustrate the voltage potential field as well as the electric field* |
