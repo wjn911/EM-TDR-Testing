@@ -138,7 +138,23 @@ The laboratory testing consist of three different damage width: 245&deg;, 130&de
 - 500 MHz square waveform
 - 300 MHz square waveform
 - 150 MHz square waveform and Gaussian waveform
+We also test on the intact pipeline as the baseline measurement, and exam the difference between damaged-pipe data and intact-pipe data.
 Here are some of the measured results:
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture16.png) |
+|:--:|
+| *Left: raw data. Right: data after processed* |
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture17.png) |
+|:--:|
+| *Left: raw data. Right: data after processed* |
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture18.png) |
+|:--:|
+| *Left: raw data. Right: data after processed* |
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture19.png) |
+|:--:|
+| *Left: raw data. Right: data after processed* |
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture20.png) |
+|:--:|
+| *Left: raw data. Right: data after processed* |
 
 ##### EM-TDR measurement of the 245&deg; damage in the pipe with different frequencies
 
