@@ -1,8 +1,8 @@
 # EM-TDR-Testing
 
-| Task Name | Testing Description | Testing progress |
+| Task Name | Description | Progress |
 | ------------- | ------------- | ------------- |
-| [Numerical Scheme](#numerical-scheme-25-d-approach)  | Content Cell  | Content Cell  |
+| [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
 | Content Cell  | Content Cell  | Content Cell  |
 
 
