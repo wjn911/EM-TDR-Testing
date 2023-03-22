@@ -6,7 +6,7 @@
 | [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios: <ul><li>[Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion)</li><li>[Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion)</li></ul> | Finished  |
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages: <ul><li>[2-D cross-sections](#numberical-simulation-result-of-the-2-d-cross-sections)</li><li>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios)</li></ul> | Finished|
 | [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
-| [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test | Finished |
+| [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test: <ul><li>[Experiment set up](#damaged-pipe-set-up)</li><li>[Laboratory testing results](#laboratory-testing-results)</li><li>[Numerical simulation](#numerical-simulation)</li><li>[Comarision between numerical simulation and laboratory testing](#comparision-between-numerical-simulation-and-laboratory-measurements)</li></ul> | Finished |
 
 
 
