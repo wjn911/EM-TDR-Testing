@@ -141,6 +141,8 @@ The laboratory testing consist of three different damage width: 245&deg;, 130&de
 We also test on the intact pipeline as the baseline measurement, and exam the difference between damaged-pipe data and intact-pipe data.
 Here are some of the measured results:
 
+##### EM-TDR measurement of the 245&deg; damage in the pipe with different frequencies
+
 | ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture16.png) |
 |:--:|
 | *Left: raw data. Right: data after processed* |
@@ -161,7 +163,23 @@ Here are some of the measured results:
 |:--:|
 | *Left: raw data. Right: data after processed* |
 
-##### EM-TDR measurement of the 245&deg; damage in the pipe with different frequencies
+Based on these measurements, we can see:
+
+- Reflections from gap very clear in the differential plot: both primary and multiple (green).
+- End reflections and the first multiple of the gap separated clearly on the differential plot.
+- Initial reflections and the gap reflections separated much clearer on the differential plot.
+- Reflections from gap got clearer in the differential plot: both primary and multiple (green). 
+- Amplitude of the reflections, except the initial reflection, got bigger as the gap increases, vice versa. 
+
+##### EM-TDR measurement of the 130&deg; and 15&deg; damage in the pipe with different frequencies
+
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture21.png) |
+|:--:|
+| *EM-TDR measurement of 130&deg; damage in the pipe. Measured frequency: 770 MHz. Left: raw data. Right: data after processed* |
+
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture22.png) |
+|:--:|
+| *EM-TDR measurement of 15&deg; damage in the pipe. Measured frequency: 770 MHz. Left: raw data. Right: data after processed* |
 
 #### Numerical simulation
 We also conducted numerical simulation of the laboratory set up. The results are shown: 
@@ -171,4 +189,13 @@ We also conducted numerical simulation of the laboratory set up. The results are
 | *Numerical simulation of the lab testing set up. The top row is the numerical model. The bottom row is the voltage potential field.* |
 
 #### Comparision between numerical simulation and laboratory measurements
+To evaluate the most realistic scenario, we used the smallest gap width (15&deg;) settting for comparision between numerical simulation and the laboratory testing. The results are shown in the following figure:
+- This is differential plot: we subtract the intact casing signal from all the other scenarios.
+- After subtraction, the intact signal is zeros (flat red line), the other differential signal is in blue curves.
+- In the lab testing, each testing cannot be exactly the same, so after subtraction, we can see the visible entry reflections residuals.
 
+| ![EM-TDR equipment](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture23.png) |
+|:--:|
+| *Comparision between numerical simulation and laboratory testing. Left: numerical simulation. Right: laboratory testing* |
+
+### C-FER Deepwell simulator test
