@@ -3,7 +3,7 @@
 | Task Name | Description | Progress |
 | ------------- | ------------- | ------------- |
 | [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
-| [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios: <br> - [Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion) - <br> - [Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion) | Finished  |
+| [Numerical simulation test](#numerical-simulation-test) | 2-D pipe cross-section in different scenarios: <ul><li>[Dis-bond coating with intact coating and metalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-intact-coating-no-corrosion)</li><li>[Dis-bond coating with intact/ broken coating and intact matalic pipe](#numerical-simulation-scenario-1-dis-bond-coating-broken-coating-no-corrosion)</li></ul> | Finished  |
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages <br>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios) | Finished|
 | [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
 | [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test | Finished |
