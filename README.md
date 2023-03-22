@@ -3,7 +3,7 @@
 | Task Name | Description | Progress |
 | ------------- | ------------- | ------------- |
 | [Numerical Scheme](#numerical-scheme-25-d-approach)  | Brief introduction of the 2.3-D numerical scheme  | Finished  |
-| Content Cell  | Content Cell  | Content Cell  |
+| [Numerical simulation test](#numerical-simulation-test) | General 2-D pipe cross-section: Metalic pipe filed with fluid (Water/ Gas/ Oil)  | Finished  |
 
 
 # Numerical Scheme: 2.5-D approach
@@ -14,9 +14,10 @@ In most of the case, the pipeline has relative thin pipe wall but very long leng
 |:--:|
 | *Example of calculating the characteristic impednace of the unit length and simulation of the 2-D cross-section* |
 
-Secondly, we assemble these sections into 1-D model and simulate the EM-TDR response. 
+Secondly, we assemble these sections in the longitudinal into a 1-D model and simulate the EM-TDR response. 
 
 | ![2.5-D approach](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture2.png) |
 |:--:|
 | *Assemble the 2-D cross-sections into 1-D model in longitudinal direction* |
 
+# Numerical simulation test
