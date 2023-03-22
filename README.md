@@ -97,7 +97,7 @@ The detail parameters of the waveform generator and oscilloscope are listed in t
 | Arbitrary waveform generator ||
 | ------------- | ------------- |
 | Number of output | 2 channels |
-| Frequency range | 1 $\mu$Hz to 2 GHz |
+| Frequency range | 1 μHz to 2 GHz |
 | Amplitude offset | -2.5 V to + 2.5 V | 
 | Bandwidth | 2 GHz |
 | Mechanical (W x H x D)<br>Weight | 17.7 x 6.3 x 13.4 inch (450 x 160 x 340 mm)<br> 4.4 lbs (9.7 kg)|
