@@ -16,4 +16,7 @@ In most of the case, the pipeline has relative thin pipe wall but very long leng
 
 Secondly, we assemble these sections into 1-D model and simulate the EM-TDR response. 
 
-![2.5-D approach](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture2.png)
+| ![2.5-D approach](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture2.png) |
+|:--:|
+| *Assemble the 2-D cross-sections into 1-D model in longitudinal direction* |
+
