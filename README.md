@@ -218,7 +218,13 @@ The schematic diagram and the photograph of the wellheads is shown:
 #### Feature identification
 
 Signal based identification:
-- Raw identification of the reflective signals: **Looking for anomalies**
-- Using frequency-spatial resolution relationship: **Looking for consistency cross different frequencies**
+- Raw identification of the reflective signals: **Looking for anomalies**;
+- Using frequency-spatial resolution relationship: **Looking for consistency cross different frequencies**.
 
+Inversion based identification:
+- LSR (Least-Squared Root)-inversion with out considering attenuation
+- LSR-inversion with attenuation compensation: because we can easily identify the primary multiple reflection, so we can roughly estimate the Q value based on the amplitude changes from entry-reflection to primary multiple.
 
+For larger features, special resolution is relatively **frequency independent**
+
+feature size $$(h)$$ is bigger than $$1/4$$ of of max wavelengths $$(\lambda = 1/f)$$:
