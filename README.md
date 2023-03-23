@@ -204,3 +204,16 @@ To evaluate the most realistic scenario, we used the smallest gap width (15&deg;
 
 [Back to top](#em-tdr-testing)
 ### C-FER Deepwell simulator test
+
+This is a blind test on the C-FER Deepwell simulator. 
+- Well size (OD): 4.5 inch, 5.5 inch, and 7.0 inch;
+- Well depth: 82 ft.
+
+The schematic diagram and the photograph of the wellheads is shown: 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture24.png) |
+|:--:|
+| *Left: photograph of the three wellheads. Right: schematic diagram of the three welll.* |
+
+
+
