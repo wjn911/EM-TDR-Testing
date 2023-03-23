@@ -255,8 +255,27 @@ Contrary, if the reflected waveforms gradually merged togather as the freqeuncy 
 
 #### Integrity features on the casings
 
-The features were revealed to us after the EM-TDR interpretation and inversion. Here are the photos of the main feature configurations on the casings: 
-| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture29.png) |
+The features were revealed to us after the EM-TDR interpretation and inversion. There are mainly four types of features: 
+- Machined features: Severe metal loss
+- Hand-made irregular shape metal loss
+- Machined features: small size metal loss
+- Nature corrosion metal loss
+
+Here are the photos of the main feature configurations on the casings: 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture29_1.png) |
+|:--:|
+| *Machined features: Severe metal loss* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture29_2.png) |
+|:--:|
+| *Hand-made irregular shape metal loss* |
+
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture30.png) |
 |:--:|
-| *Feature configurations on the casings* |
+| *Machined features: small size metal loss* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture31.png) |
+|:--:|
+| *Nature corrosion metal loss* |
+
