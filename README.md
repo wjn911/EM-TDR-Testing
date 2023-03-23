@@ -377,6 +377,7 @@ We discovered after the later excavation that the pipelines may be connected via
 | *Excavation shows all pipes are somehow connected* |
 
 ##### Gathering pipeline test results
+
 The EM-TDR results can be further examed by choosing several location to excavated. The EM-TDR shown the reflections from the turning points of the pipelines can be identified. 
 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture48.png) |
@@ -384,6 +385,7 @@ The EM-TDR results can be further examed by choosing several location to excavat
 | *Comparision between pipeline turning point on the EM-TDR signal and the excavation site.* |
 
 In addition, we can compare the blueprint of the pipelines and the TDR signal. The reflections from the ends of the pipelines can be clearly seen.
+
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture49.png) |
 |:--:|
 | *Comparision between pipeline blueprint and the EM-TDR signals.* |
@@ -398,22 +400,26 @@ Because of the paralle layout of the pipeline, we can generate the 2-D map from 
 | *2-D map generated from the EM-TDR signal* |
 
 We also exam the effects from the surrounding soil condition and terrain. Most of the data have a "low frequency" background signal. 
+
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture51.png) |
 |:--:|
 | *Seperation of the low-frequency background component from the TDR signal.* |
 
 After seperating the low frequency background signal from the main data, we can see the low-frequency components are somehow coincide with the terrain.
-| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture52.png) |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture53.png) |
 |:--:|
 | *The low-frequency component coincide with the terrain.* |
 
 This is further comfirmed by the comparision between 2-D plot of the ow-frequency background component and the aerial imagery. The latest public aviable aerial imagery is only at June 2021, which is much earlier than the survey date. During the survey, there was a large soil mount on the ground (see the above image), which was not shown in the aerial imagery.We indicate the location of the mount with dashed box in the following figure.
-| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture53.png) |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture54.png) |
 |:--:|
 | *Comparision between 2-D plot of the low-frequency background component and the aerial imagery.* |
 
 Finally, we compare the pipeline bluerpint with the 2-D plot with only low-frequency background component as well as with the signal without the low-frequency component. 
-| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture54.png) |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture55.png) |
 |:--:|
 | *Improved 2-D map generated from the EM-TDR signal. Left: without the low-frequency component. Right: Only with the low-frequency component.* |
 
