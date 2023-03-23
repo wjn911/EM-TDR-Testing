@@ -7,7 +7,7 @@
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages: <ul><li>[2-D cross-sections](#numberical-simulation-result-of-the-2-d-cross-sections)</li><li>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios)</li></ul> | Finished|
 | [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
 | [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test: <ul><li>[Experiment set up](#damaged-pipe-set-up)</li><li>[Laboratory testing results](#laboratory-testing-results)</li><li>[Numerical simulation](#numerical-simulation)</li><li>[Comarision between numerical simulation and laboratory testing](#comparision-between-numerical-simulation-and-laboratory-measurements)</li></ul> | Finished |
-| [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features: <ul><li>[Wellbore schematic diagram](#c-fer-deepwell-simulator-test)</li><li>[Feature identification scheme](#feature-identification)</li><li>[Iterative workflow of inversion process](#iterative-workflow-of-inversion-process)</li><li>[Interpretation and inversion results](#interpretation-and-inversion-results)</li><li>[Integrity features on the casings](#integrity-features-on-the-casings)</li></ul> | Finished |
+| [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features: <ul><li>[Wellbore schematic diagram](#c-fer-deepwell-simulator-test)</li><li>[Feature identification scheme](#feature-identification)</li><li>[Iterative workflow of inversion process](#iterative-workflow-of-inversion-process)</li><li>[Interpretation and inversion results](#interpretation-and-inversion-results)</li><li>[Integrity features on the casings](#integrity-features-on-the-casings)</li><li>[Ground truth matrix](#ground-truth-matrix)</li></ul> | Finished |
 
 
 ### Numerical Scheme: 2.5-D approach
@@ -241,6 +241,7 @@ Contrary, if the reflected waveforms gradually merged togather as the freqeuncy 
 |:--:|
 | *Example of EM-TDR reflection from a feature that is between the quater of the shortest wavelength and the quater of the longest wavelength used.* |
 
+[Back to top](#em-tdr-testing)
 #### Iterative workflow of inversion process
 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture27.png) |
@@ -279,3 +280,19 @@ Here are the photos of the main feature configurations on the casings:
 |:--:|
 | *Nature corrosion metal loss* |
 
+[Back to top](#em-tdr-testing)
+#### Ground truth matrix
+
+To put the feature clusters in perspective, we exam the features both in terms of spatial distribution as well as statistical size distribution: 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture32.png) |
+|:--:|
+| *Top: spatial distribution plot of the 7-inch casing. Bottom: statistical size distribution.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture33.png) |
+|:--:|
+| *Top: spatial distribution plot of the 5.5-inch casing. Bottom: statistical size distribution.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture34.png) |
+|:--:|
+| *Top: spatial distribution plot of the 4.5-inch casing. Bottom: statistical size distribution.* |
