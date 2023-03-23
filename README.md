@@ -218,7 +218,7 @@ The schematic diagram and the photograph of the wellheads is shown:
 #### Feature identification
 
 Signal based identification:
-- Raw identification of the reflective signals: _Looking for anomalies_
-- Using frequency-spatial resolution relationship: _Looking for consistency cross different frequencies_
+- Raw identification of the reflective signals: **Looking for anomalies**
+- Using frequency-spatial resolution relationship: **Looking for consistency cross different frequencies**
 
 
