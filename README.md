@@ -19,14 +19,14 @@ In most of the case, the pipeline has relative thin pipe wall but very long leng
 We ultilize the Poisson equation:
 $$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$$.
 And the Gauss’s law:
-$q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y){E}(x,y)} \cdot d{n}$.
+$$q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y){E}(x,y)} \cdot d{n}$$.
 In addtion, we know that the capacitance C per unit length:
-$C = \frac{q}{V_{0}}$.
+$$C = \frac{q}{V_{0}}$$.
 and characteristic impedance (per unit length):
-$Z = \sqrt{\frac{L}{C}}$.
+$$Z = \sqrt{\frac{L}{C}}$$.
 
 Combining the above equations, we can calculated the characteristic impedance (per unit length) of the cross-section:
-$Z = \sqrt{\frac{L}{C}} = \sqrt{\frac{LC_{0}}{CC_{0}}} = \frac{1}{v_{0}\sqrt{CC_{0}}}$.
+$$Z = \sqrt{\frac{L}{C}} = \sqrt{\frac{LC_{0}}{CC_{0}}} = \frac{1}{v_{0}\sqrt{CC_{0}}}$$.
 
 The cross-section simulation is shown in the following figure as an example: 
 | ![characteristic impednace calculation](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture1_1.png) |
@@ -34,7 +34,7 @@ The cross-section simulation is shown in the following figure as an example:
 | *Example of calculating the characteristic impednace of the unit length and simulation of the 2-D cross-section. a: The dielectric permittivity model. b: Numerical simulated voltage potential field. c: Numerical simulated electric field.* |
 
 Secondly, we can assemble each of the section, calculated from the above 2-D model, into 1-D model in the longitudinal direction to simulate the EM-TDR response.
-$R = \frac{V_r}{V_i} = \frac{Z_L - Z_0}{Z_L + Z_0}$.
+$$R = \frac{V_r}{V_i} = \frac{Z_L - Z_0}{Z_L + Z_0}$$.
  
 | ![2.5-D approach](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture2.png) |
 |:--:|
