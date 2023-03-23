@@ -28,7 +28,7 @@ $Z = \sqrt{\frac{L}{C}} = \sqrt{\frac{LC_{0}}{CC_{0}}} = \frac{1}{v_{0}\sqrt{CC_
 
 $R = \frac{V_r}{V_i} = \frac{Z_L - Z_0}{Z_L + Z_0}$
 
-| ![characteristic impednace calculation](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture1.png) |
+| ![characteristic impednace calculation](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture1_1.png) |
 |:--:|
 | *Example of calculating the characteristic impednace of the unit length and simulation of the 2-D cross-section* |
 
