@@ -17,22 +17,17 @@
 In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach: First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. 
 
 We ultilize the Poisson equation:
-$$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}.$$
-And the Gauss’s law:
-
-$$q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y){E}(x,y)} \cdot d{n}.$$
-
+$$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$,$
+and the Gauss’s law:
+$$q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y){E}(x,y)} \cdot d{n}$.$
 In addtion, we know that the capacitance C per unit length:
-
-$$C = \frac{q}{V_{0}}.$$
-
+$$C = \frac{q}{V_{0}}$,$
 and characteristic impedance (per unit length):
-
-$$Z = \sqrt{\frac{L}{C}}.$$
+$$Z = \sqrt{\frac{L}{C}}$.$
 
 Combining the above equations, we can calculated the characteristic impedance (per unit length) of the cross-section:
 
-$$Z = \sqrt{\frac{L}{C}} = \sqrt{\frac{LC_{0}}{CC_{0}}} = \frac{1}{v_{0}\sqrt{CC_{0}}}.$$
+$$Z = \sqrt{\frac{L}{C}} = \sqrt{\frac{LC_{0}}{CC_{0}}} = \frac{1}{v_{0}\sqrt{CC_{0}}}$.$
 
 The cross-section simulation is shown in the following figure as an example: 
 | ![characteristic impednace calculation](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture1_1.png) |
