@@ -350,4 +350,73 @@ This well has previous well logging data publiclly avialbe. The EM-TDR results m
 |:--:|
 | *Comparision between EM-TDR measurement and previous well logging data.* |
 
-#### Gathering Pipeline test
+#### Gathering pipeline test
+
+The gathering pipeline test was conducted at Turner Cut South station: 
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture44.png) |
+|:--:|
+| *Gathering pipeline test location* |
+
+The challenges of this test is that all pipes are somehow connected. In addition, on the wellhead side, the old setup wells were cut off from pipeline, but the new setup wells are not. Here is the comparision between the old and new wellhead:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture45.png) |
+|:--:|
+| *Left: Old setup. The tubing is used for withdraw, the casing is used for injection. Right: New setup. The tubing is used for both withdraw and injection. * |
+
+Connection setup:
+- Using the casing and tubing of each well as signal input and return path, since they ran parallel.
+- In addition, we also used surface cable as return path for comparison.
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture46.png) |
+|:--:|
+| *Connection setup* |
+
+Challenges: all pipes are somehow connected
+We discovered after the later excavation that the pipelines may be connected via the hydraulic lines.
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture47.png) |
+|:--:|
+| *Excavation shows all pipes are somehow connected* |
+
+##### Gathering pipeline test results
+The EM-TDR results can be further examed by choosing several location to excavated. The EM-TDR shown the reflections from the turning points of the pipelines can be identified. 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture48.png) |
+|:--:|
+| *Comparision between pipeline turning point on the EM-TDR signal and the excavation site.* |
+
+In addition, we can compare the blueprint of the pipelines and the TDR signal. The reflections from the ends of the pipelines can be clearly seen.
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture49.png) |
+|:--:|
+| *Comparision between pipeline blueprint and the EM-TDR signals.* |
+
+Because of the paralle layout of the pipeline, we can generate the 2-D map from the EM-TDR signal:
+- The end of the pipes are easy to identify.
+- The signal seems affected by the condition of the soil.
+- The bending of the pipes also were reflected on the EM-TDR signal.
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture50.png) |
+|:--:|
+| *2-D map generated from the EM-TDR signal* |
+
+We also exam the effects from the surrounding soil condition and terrain. Most of the data have a "low frequency" background signal. 
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture51.png) |
+|:--:|
+| *Seperation of the low-frequency background component from the TDR signal.* |
+
+After seperating the low frequency background signal from the main data, we can see the low-frequency components are somehow coincide with the terrain.
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture52.png) |
+|:--:|
+| *The low-frequency component coincide with the terrain.* |
+
+This is further comfirmed by the comparision between 2-D plot of the ow-frequency background component and the aerial imagery. The latest public aviable aerial imagery is only at June 2021, which is much earlier than the survey date. During the survey, there was a large soil mount on the ground (see the above image), which was not shown in the aerial imagery.We indicate the location of the mount with dashed box in the following figure.
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture53.png) |
+|:--:|
+| *Comparision between 2-D plot of the low-frequency background component and the aerial imagery.* |
+
+Finally, we compare the pipeline bluerpint with the 2-D plot with only low-frequency background component as well as with the signal without the low-frequency component. 
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture54.png) |
+|:--:|
+| *Improved 2-D map generated from the EM-TDR signal. Left: without the low-frequency component. Right: Only with the low-frequency component.* |
+
+- Field tests in vertical borehole shows consistent features from EM-TDR when compared with traditional well logging tools.
+- Horizontal pipeline testing and EM-TDR guided excavation suggested sensitivity to pipeline bending effects. Detailed feature identification underway.
+- Possible soil compaction/surrounding effects at low frequency on EM-TDR data.
