@@ -215,5 +215,10 @@ The schematic diagram and the photograph of the wellheads is shown:
 |:--:|
 | *Left: photograph of the three wellheads. Right: schematic diagram of the three welll.* |
 
+#### Feature identification
+
+Signal based identification:
+- Raw identification of the reflective signals: *Looking for anomalies*
+- Using frequency-spatial resolution relationship: *Looking for consistency cross different frequencies*
 
 
