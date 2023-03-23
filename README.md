@@ -225,6 +225,19 @@ Inversion based identification:
 - LSR (Least-Squared Root)-inversion with out considering attenuation
 - LSR-inversion with attenuation compensation: because we can easily identify the primary multiple reflection, so we can roughly estimate the Q value based on the amplitude changes from entry-reflection to primary multiple.
 
-For larger features, special resolution is relatively **frequency independent**
+For different size of features, special resolution is relatively **frequency dependent**:
+- The feature size $(h)$ is bigger than $1/4$ of of max wavelengths $(\lambda = 1/f)$:can be resolved by all frequencies $\frac{\lambda_{max}}{4} \le h$.
+- The feature size $(h)$ is not bigger than $1/4$ of of all wavelengths $(\lambda = 1/f)$:cannot be resolved by all frequencies $\frac{\lambda_{min}}{4} \le h \le \frac{\lambda_{max}}{4}$.
 
-The feature size $(h)$ is bigger than $1/4$ of of max wavelengths $(\lambda = 1/f)$:can be resolved by all frequencies $\frac{\lambda_{max}}{4} \le h$
+So, ultilizing the frequency dependence, we can identify the features by examing both the reflection waveforms. If the reflected waveforms are all most the same in different frequencies, the size of the feature is likely larger than the quater of largest wavelength we used.Here is an example from 7-inch wellbore testing:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture25.png) |
+|:--:|
+| *Example of EM-TDR reflection from a feature that is larger than the quater of the longest wavelength used.* |
+
+Contrary, if the reflected waveforms gradually merged togather as the freqeuncy decrease (wavelength increase), the size of the feature is likely between the quater of the smallest wavelength and the quater of the largest wavelength we used. Here is an example from the same 7-inch wellbore testing:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture26.png) |
+|:--:|
+| *Example of EM-TDR reflection from a feature that is between the quater of the shortest wavelength and the quater of the longest wavelength used.* |
+
