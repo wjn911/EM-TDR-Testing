@@ -7,7 +7,7 @@
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages: <ul><li>[2-D cross-sections](#numberical-simulation-result-of-the-2-d-cross-sections)</li><li>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios)</li></ul> | Finished|
 | [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
 | [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test: <ul><li>[Experiment set up](#damaged-pipe-set-up)</li><li>[Laboratory testing results](#laboratory-testing-results)</li><li>[Numerical simulation](#numerical-simulation)</li><li>[Comarision between numerical simulation and laboratory testing](#comparision-between-numerical-simulation-and-laboratory-measurements)</li></ul> | Finished |
-| [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features: <ul><li>[Wellbore schematic diagram](#c-fer-deepwell-simulator-test)</li><li>[Feature identification scheme](#feature-identification)</li><li>[Iterative workflow of inversion process](#iterative-workflow-of-inversion-process)</li><li>[Interpretation and inversion results](#interpretation-and-inversion-results)</li><li>[Integrity features on the casings](#integrity-features-on-the-casings)</li><li>[Ground truth matrix](#ground-truth-matrix)</li></ul> | Finished |
+| [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features: <ul><li>[Wellbore schematic diagram](#c-fer-deepwell-simulator-test)</li><li>[Feature identification scheme](#feature-identification)</li><li>[Iterative workflow of inversion process](#iterative-workflow-of-inversion-process)</li><li>[Interpretation and inversion results](#interpretation-and-inversion-results)</li><li>[Integrity features on the casings](#integrity-features-on-the-casings)</li><li>[Ground truth matrix](#ground-truth-matrix)</li><li>[Comparision between EM-TDR interpretation results and ground truth](#comparision-between-em-tdr-interpretation-results-and-ground-truth)</li><li>[EM-TDR interpretation result evaluation](#em-tdr-interpretation-result-evaluation)</li></ul> | Finished |
 
 
 ### Numerical Scheme: 2.5-D approach
@@ -287,12 +287,47 @@ To put the feature clusters in perspective, we exam the features both in terms o
 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture32.png) |
 |:--:|
-| *Top: spatial distribution plot of the 7-inch casing. Bottom: statistical size distribution.* |
+| *Top: spatial distribution plot of the 7-inch casing. Bottom: statistical size distribution. The red arrows indicate the small cluster features.* |
 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture33.png) |
 |:--:|
-| *Top: spatial distribution plot of the 5.5-inch casing. Bottom: statistical size distribution.* |
+| *Top: spatial distribution plot of the 5.5-inch casing. Bottom: statistical size distribution. The red arrows indicate the small cluster features.* |
 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture34.png) |
 |:--:|
-| *Top: spatial distribution plot of the 4.5-inch casing. Bottom: statistical size distribution.* |
+| *Top: spatial distribution plot of the 4.5-inch casing. Bottom: statistical size distribution. The red arrows indicate the small cluster features.* |
+
+#### Comparision between EM-TDR interpretation results and ground truth
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture35.png) |
+|:--:|
+| *Comparision between TDR interpretation results and the ground truth. The cold color scheme bars are ground truth. The hot scheme curves are the inversion and interpretation results* |
+
+[Back to top](#em-tdr-testing)
+#### EM-TDR interpretation result evaluation
+
+We also evaluate the TDR interpreation results and put the in the statisitcal perspective. We can see most of the missed identified features are either small clusters or at the end of wellbore. 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture36.png) |
+|:--:|
+| *Result evaluation of 7-inch well: 1* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture37.png) |
+|:--:|
+| *Result evaluation of 7-inch well: 2* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture38.png) |
+|:--:|
+| *Result evaluation of 5.5-inch well: 1* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture39.png) |
+|:--:|
+| *Result evaluation of 5.5-inch well: 2* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture40.png) |
+|:--:|
+| *Result evaluation of 4.5-inch well: 1* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture41.png) |
+|:--:|
+| *Result evaluation of 4.5-inch well: 2* |
