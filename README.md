@@ -14,7 +14,7 @@
 
 ### Numerical Scheme: 2.5-D approach
 
-In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach. More detail about this approach can be seen at [Wang & Wu (2020)](#https://doi.org/10.1016/j.ijggc.2020.103002): First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. 
+In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach. More detail about this approach can be seen at [Wang & Wu (2020)](https://doi.org/10.1016/j.ijggc.2020.103002): First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. 
 
 We ultilize the Poisson equation:
 $$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$$
