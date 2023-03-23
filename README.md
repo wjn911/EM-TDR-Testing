@@ -17,8 +17,8 @@
 In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach: First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. 
 
 We ultilize the Poisson equation:
-$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$, 
-the Gauss’s law:
+$$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$$.
+And the Gauss’s law:
 $q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y){E}(x,y)} \cdot d{n}$.
 In addtion, we know that the capacitance C per unit length:
 $C = \frac{q}{V_{0}}$.
