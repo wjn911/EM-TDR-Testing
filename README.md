@@ -227,4 +227,4 @@ Inversion based identification:
 
 For larger features, special resolution is relatively **frequency independent**
 
-feature size $$(h)$$ is bigger than $$1/4$$ of of max wavelengths $$(\lambda = 1/f)$$:
+feature size $(h)$ is bigger than $$1/4$$ of of max wavelengths $$(\lambda = 1/f)$$:
