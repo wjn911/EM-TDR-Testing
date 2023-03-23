@@ -336,7 +336,18 @@ We also evaluate the TDR interpreation results and put the in the statisitcal pe
 
 [Back to top](#em-tdr-testing)
 ### Preliminary Field Test: MacDonald Island
+The preliminary field test at the PG&E facility consists of two part: wellbore test from wellhead, and gathering pipeline test. 
 
 #### Wellbore test: Turner Cut W-1E surface casing 
+The location of the wellhead borehole test was conducted at Turner Cut W-1E. This particular well is a decommissioned well and only have the surface casing left. The wellhead (Christmas tree) still left on the wellhead, adding challenge to the TDR measurement. 
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture42.png) |
+|:--:|
+| *The location of the Turner Cut W-1E well location* |
+
+This well has previous well logging data publiclly avialbe. The EM-TDR results match the CCL long at most of the locations, indicating casing surrounding affects the EM-TDR signal. 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture43.png) |
+|:--:|
+| *Comparision between EM-TDR measurement and previous well logging data.* |
 
 #### Gathering Pipeline test:  Turner Cut 2S – 4S
