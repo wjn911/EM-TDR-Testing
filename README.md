@@ -7,7 +7,7 @@
 | [Numerical sensitivity test of corrosion](#numerical-sensitivity-test) | Numerical test of varies metalic loss due to corrosion as well as coating damages: <ul><li>[2-D cross-sections](#numberical-simulation-result-of-the-2-d-cross-sections)</li><li>[Characteristic impedance changes](#characteristic-impedance-changes-in-different-scenarios)</li></ul> | Finished|
 | [EM-TDR prototype development](#em-tdr-prototype-development) | EM waveform generating and receiving set up | Finished|
 | [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test: <ul><li>[Experiment set up](#damaged-pipe-set-up)</li><li>[Laboratory testing results](#laboratory-testing-results)</li><li>[Numerical simulation](#numerical-simulation)</li><li>[Comarision between numerical simulation and laboratory testing](#comparision-between-numerical-simulation-and-laboratory-measurements)</li></ul> | Finished |
-| [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features | Finished |
+| [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features: <ul><li>[Feature identification scheme](#feature-identification)</li></ul> | Finished |
 
 
 ### Numerical Scheme: 2.5-D approach
