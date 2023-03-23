@@ -241,3 +241,22 @@ Contrary, if the reflected waveforms gradually merged togather as the freqeuncy 
 |:--:|
 | *Example of EM-TDR reflection from a feature that is between the quater of the shortest wavelength and the quater of the longest wavelength used.* |
 
+#### Iterative workflow of inversion process
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture27.png) |
+|:--:|
+| *Left: Workflow chart of the iterative workflow of inversion process. Right: forward modeling workflow used in the intersion.* |
+
+#### Interpretation and inversion results
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture28.png) |
+|:--:|
+| *Intersion and interpretation results of all three wells* |
+
+#### Integrity features on the casings
+
+The features were revealed to us after the EM-TDR interpretation and inversion. Here are the photos of the main feature configurations on the casings: 
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture29.png) |
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture30.png) |
+|:--:|
+| *Feature configurations on the casings* |
