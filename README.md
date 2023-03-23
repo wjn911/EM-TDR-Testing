@@ -18,7 +18,7 @@ In most of the case, the pipeline has relative thin pipe wall but very long leng
 
 $\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$
 
-$q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y)\bm{E}(x,y)} \cdot d\bm{n}$
+$q = \varepsilon_{0} \oint\limits_S{\varepsilon_{r}(x,y){E}(x,y)} \cdot d{n}$
 
 $C = \frac{q}{V_{0}}$
 
