@@ -16,6 +16,8 @@
 
 In most of the case, the pipeline has relative thin pipe wall but very long length, making it is very expensive to simulate in full 3-D scenario. To compensate such dilema, we addopt the 2.5-D approach: First, we simulate the cross-section of every possiable pipe condition. As result, we can calculate the characteristic impednace per unit length of these conditions. The cross-section simulation is shown in the following figure as an example: 
 
+$\nabla \cdot (\varepsilon_{r}\nabla{V}) = - \frac{\rho}{\varepsilon_{0}}$
+
 | ![characteristic impednace calculation](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture1.png) |
 |:--:|
 | *Example of calculating the characteristic impednace of the unit length and simulation of the 2-D cross-section* |
