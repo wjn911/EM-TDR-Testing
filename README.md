@@ -464,3 +464,23 @@ To simulate the water intrusion below the coating, we cut out a 6-cm long, 3-cm 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture58.png) |
 |:--:|
 | *The “Water intrusion” set up.* |
+
+Here is an example of the data, showing the frequency-dependence: “wedge shape” via frequency change:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture59.png) |
+|:--:|
+| *EM-TDR results of lab simulated test of the water intrusion show frequency-dependence: “wedge shape” via frequency change.* |
+
+#### Improved setup of EM-TDR water intrusion detection
+
+Here we used dual parallel wire as return path, the results show higher resolution: at the higher frequency, the boundarieso of the water intrusion can be detected. 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture60.png) |
+|:--:|
+| *Dual parallel return path set up.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture61.png) |
+|:--:|
+| *EM-TDR results of the dual parallel return path set up. The boundarieso of the water intrusion can be detected at higher frequencies.* |
+
+
