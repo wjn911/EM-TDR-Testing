@@ -9,7 +9,7 @@
 | [EM-TDR prototype evaluation](#em-tdr-prototype-evaluation) | Pipeline damage sensitivity lab test: <ul><li>[Experiment set up](#damaged-pipe-set-up)</li><li>[Laboratory testing results](#laboratory-testing-results)</li><li>[Numerical simulation](#numerical-simulation)</li><li>[Comarision between numerical simulation and laboratory testing](#comparision-between-numerical-simulation-and-laboratory-measurements)</li></ul> | Finished |
 | [C-FER Deepwell blind simulator test](#c-fer-deepwell-simulator-test) | Blind test on three well with full of features: <ul><li>[Wellbore schematic diagram](#c-fer-deepwell-simulator-test)</li><li>[Feature identification scheme](#feature-identification)</li><li>[Iterative workflow of inversion process](#iterative-workflow-of-inversion-process)</li><li>[Interpretation and inversion results](#interpretation-and-inversion-results)</li><li>[Integrity features on the casings](#integrity-features-on-the-casings)</li><li>[Ground truth matrix](#ground-truth-matrix)</li><li>[Comparision between EM-TDR interpretation results and ground truth](#comparision-between-em-tdr-interpretation-results-and-ground-truth)</li><li>[EM-TDR interpretation result evaluation](#em-tdr-interpretation-result-evaluation)</li></ul> | Finished |
 | [Preliminary Field Test: MacDonald Island](#preliminary-field-test-macdonald-island) | <ul><li>[Wellbore test: Turner Cut W-1E surface casing](#wellbore-test-turner-cut-w-1e-surface-casing)</li><li>[Gathering Pipeline test](#gathering-pipeline-test)</li></ul> | Finished |
-| [Lab simulated pipeline leakage](#lab-simulated-pipeline-leakage) | Including: coading dis-bonded, water intrusion, and metal loss | In progress | 
+| [Lab simulated pipeline leakage](#lab-simulated-pipeline-leakage) | <ul><li>[Lab test set up](#lab-test-set-up)</li><li>[Improved setup of EM-TDR water intrusion detection](#improved-setup-of-em--tdr-water-intrusion-detection)</li><li>[Leaking package connected to the ground](#leaking-package-connected-to-the-ground)</li></ul> | In progress | 
 | Controlled enviroment testing of the pipe burried in the soil | The soil surrounding the pipe could be modify to emulate the water leakage | Planned |
 | Field blind test at the Johnson City facility | Blind testing of EM-TDR in the simulated field enviroment | Planned |
 | Comparision between EM-TDR and UT (Ultrasonic testing ) | Comaring two different detecting technique on the pipeline | Planned |
@@ -449,6 +449,8 @@ Finally, we compare the pipeline bluerpint with the 2-D plot with only low-frequ
 [Back to top](#em-tdr-testing)
 
 ### Lab simulated pipeline leakage
+
+#### Lab test set up
 In the laboratory test, we use on of the pipe samples from the field. The pipe is 6-ft long, with OD of 4 inch. The location of the pipe sample we used in the test is marked in the box below:
 
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture56.png) |
@@ -482,5 +484,50 @@ Here we used dual parallel wire as return path, the results show higher resoluti
 | ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture61.png) |
 |:--:|
 | *EM-TDR results of the dual parallel return path set up. The boundarieso of the water intrusion can be detected at higher frequencies.* |
+
+We also test more parallel wire, from one up to four wire overlap with the water-intrusion location.
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture63.png) |
+|:--:|
+| *Four parallel return path on top of the water intrusion.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture64.png) |
+|:--:|
+| *Three parallel return path on top of the water intrusion.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture65.png) |
+|:--:|
+| *Two parallel return path on top of the water intrusion.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture66.png) |
+|:--:|
+| *One parallel return path on top of the water intrusion.* |
+
+Comparing these results, the improvement the data quality is not significant via more return path:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture67.png) |
+|:--:|
+| *Peak-trough amplitude of the EM-TDR results at different numbers of return path.* |
+
+#### Leaking package connected to the ground
+
+To further simulate the realistic situation, we connect the water intrusion to the ground electrical potential. In the lab test, we directly connect the dis-bonded water intrusion package to the ground outlet.
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture69.png) |
+|:--:|
+| *Set up of the leaking package connected to the ground.* |
+
+We tested both naked and insulated wire as the return path. The results are shown below: 
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture70.png) |
+|:--:|
+| *Insulated wire as the return path.* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture71.png) |
+|:--:|
+| *Naked wire as the return path.* |
+
+
+
 
 
