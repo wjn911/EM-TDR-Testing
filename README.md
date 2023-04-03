@@ -447,3 +447,20 @@ Finally, we compare the pipeline bluerpint with the 2-D plot with only low-frequ
 - Possible soil compaction/surrounding effects at low frequency on EM-TDR data.
 
 [Back to top](#em-tdr-testing)
+
+### Lab simulated pipeline leakage
+In the laboratory test, we use on of the pipe samples from the field. The pipe is 6-ft long, with OD of 4 inch. The location of the pipe sample we used in the test is marked in the box below:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture56.png) |
+|:--:|
+| *The location of the pipe sample we used in the lab test.* |
+
+To simulate the water intrusion below the coating, we cut out a 6-cm long, 3-cm width from the coating and put the water-saturated paper towel beneath a new coating. The pipe and setup is shown in the following:
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture57.png) |
+|:--:|
+| *The “Water intrusion” size: L: 6 cm, W: 3 cm* |
+
+| ![CFER schematic](https://github.com/wjn911/EM-TDR-Testing/blob/main/Figures/Picture58.png) |
+|:--:|
+| *The “Water intrusion” set up.* |
